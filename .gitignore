@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Large / regenerable data artifacts (24GB+, exceeds GitHub file/repo limits).
+# Regenerate locally using the download_*.py / build_dataset_*.py scripts.
+data/
+
+# Local OPeNDAP/NASA Earthdata cookie & netrc config (machine-specific, not a secret file itself
+# but points to credential files outside the repo).
+.dodsrc
